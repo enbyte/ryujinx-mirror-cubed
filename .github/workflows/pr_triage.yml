@@ -21,7 +21,7 @@ jobs:
            ref: mirror/master
 
       - name: Update labels based on changes in PR
-        uses: actions/labeler@v5
+        uses: actions/labeler@v6
         with:
           sync-labels: true
           dot: true
